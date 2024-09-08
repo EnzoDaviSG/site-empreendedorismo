@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede de Apoio Psicológico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <img src="logo.png" alt="Logo Sidebar" class="sidebar-logo">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </div>
+
+    <header>
+        <header>
+            <div class="header-group">
+                <button class="menu-icon" onclick="toggleSidebar()">☰</button>
+                <img src="logo.png" alt="Logo" class="header-logo">
+            </div>
+            <input type="text" placeholder="Pesquisar...">
+        </header>
+    </header>
+
+    <main>
+        <section id="support">
+            <h1>Rede de apoio psicológico</h1>
+            <ul>
+                <li>Depressão</li>
+                <li>crise de ansiedade</li>
+                <li>problema familiares</li>
+            </ul>
+        </section>
+
+        <section id="book-club">
+            <h2>Clube do livro</h2>
+            <h3>Votação</h3>
+            <div class="book-vote">
+                <div class="book">
+                    <img src="book.png" alt="Livro 1">
+                    <p><strong>*nome do livro*</strong><br>*autor*</p>
+                </div>
+                <div class="book">
+                    <img src="book.png" alt="Livro 2">
+                    <p><strong>*nome do livro*</strong><br>*autor*</p>
+                </div>
+                <div class="book">
+                    <img src="book.png" alt="Livro 3">
+                    <p><strong>*nome do livro*</strong><br>*autor*</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rede de Apoio Psicológico</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
